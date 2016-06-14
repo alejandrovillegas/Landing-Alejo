@@ -41,6 +41,12 @@ li {
   margin-right: auto;
 }
 
+
+#hover.active{
+  background: #fed136;
+  border-radius: 3px;
+}
+
 #quienSoy img{
   display: inline-block;
   width: 38%;

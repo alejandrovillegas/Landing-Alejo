@@ -14,6 +14,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="js/app.js"></script>
 </head>
 <body>
   <header>
@@ -24,33 +27,35 @@
       <a href="https://twitter.com/neopilatos" target="_blank"><i class="fa fa-twitter"></i></a>
       <a href="https://github.com/alejandrovillegas" target="_blank"><i class="fa fa-github"></i></a>
     </div>
-    <ul>
-      <li><a href="#">Quien Soy?</a></li>
-      <li><a href="#">Certificaciones</a></li>
-    </ul>
+    <nav>
+      <ul>
+        <li><a id="hover" href="#imageQuienSoy">Quien Soy?</a></li>
+        <li><a id="hover" href="#certificaciones">Certificaciones</a></li>
+      </ul>
+    </nav>
   </header>
   <section>
-  	<div class="container" id="quienSoy">
-	    <h2>Quien Soy?</h2>
-	      <p>Soy desarrollador de Software excesivamente curioso por el nuevo conocimiento, el trabajo interdisciplinario y el conocimiento de nuevas culturas y personas.</p>
-	      <img id="imageQuienSoy" src="images/macbook.jpg" alt="">
-	    </div>
+    <div class="container" id="quienSoy">
+      <h2>Quien Soy?</h2>
+        <p>Soy desarrollador de Software excesivamente curioso por el nuevo conocimiento, el trabajo interdisciplinario y el conocimiento de nuevas culturas y personas.</p>
+        <img id="imageQuienSoy" src="images/macbook.jpg" alt="">
+      </div>
     </div>
   </section>
   <section id="certificaciones">
     <h2 class="container" >Certificaciones</h2>
     <div class="box">
-			<img id="certificacionesImg" 	src="images/Oracle.png" alt="Oracle Certified">
-			<h3>Oracle Certified associate</h3>
-		</div>
-		<div class="box">
-			<img id="certificacionesImg" src="images/makeitreal.png" alt="make it real">
-			<h3>Make it Real Student</h3>
-		</div>
-		<div class="box">
-			<img id="certificacionesImg" src="images/scrum.png" alt="scrum">
-			<h3>Scrum Certified</h3>
-		</div>
+      <img id="certificacionesImg" 	src="images/Oracle.png" alt="Oracle Certified">
+      <h3>Oracle Certified associate</h3>
+    </div>
+    <div class="box">
+      <img id="certificacionesImg" src="images/makeitreal.png" alt="make it real">
+      <h3>Make it Real Student</h3>
+    </div>
+    <div class="box">
+      <img id="certificacionesImg" src="images/scrum.png" alt="scrum">
+      <h3>Scrum Certified</h3>
+    </div>
   </section>
   <footer>2016 <strong>Alejo Villegas</strong>, Gracias por ingresar</footer>
 
